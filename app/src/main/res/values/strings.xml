@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">YKeYLESS</string>
+
+    <string name="activity_connexion_connect">Connect</string>
+    <string name="activity_connexion_status_plugged">PRESS CONNECT</string>
+    <string name="activity_connexion_status_unplugged">CONNECT WITH DOCKING</string>
+
+
+    <string name="fragment_chat_editText_hint">Ubah Status Anda...</string>
+    <string name="fragment_chat_name_hint">Ketik Nama Anda..</string>
+    <string name="title_activity_name_fragment">NameFragment</string>
+
+    <string name="add_widget">Add widget</string>
+    <string name="content_title">Content Title</string>
+    <string name="content_text">Content text</string>
+    <string name="subtext">Sub text</string>
+</resources>

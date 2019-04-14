@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/activity_connexion_status"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+            android:layout_marginBottom="403dp"
+            android:text="@string/activity_connexion_status_unplugged"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/activity_connexion_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="461dp"
+            android:layout_marginEnd="159dp"
+            android:layout_marginRight="159dp"
+            android:layout_marginBottom="219dp"
+            android:text="@string/activity_connexion_connect"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="273dp"
+            android:layout_marginRight="273dp"
+            android:layout_marginBottom="137dp"
+            android:onClick="sendNotification"
+            android:text="Notifikasi" />
+
+        <FrameLayout
+            android:id="@+id/USBlogo"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="293dp"
+            android:background="@android:color/holo_blue_light">
+
+            <ImageView
+                android:id="@+id/activity_connexion_usb"
+                android:layout_width="99dp"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginEnd="157dp"
+                android:layout_marginRight="157dp"
+                android:layout_marginBottom="261dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_usb_black_48dp"
+                android:tint="@color/activity_connexion_status_unplugged" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/activity_connexion_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="399dp"
+            android:layout_height="112dp"
+            app:srcCompat="@drawable/logo" />
+
+    </FrameLayout>
+</merge>
